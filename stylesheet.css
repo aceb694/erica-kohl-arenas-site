@@ -8,6 +8,16 @@
  font-family: 'EraserRegular';
   src: url(./fonts/EraserRegular.ttf) format('truetype');
 }
+@font-face
+{
+ font-family: 'Rudiment';
+  src: url(./fonts/EraserRudiment.ttf) format('truetype');
+}
+@font-face
+{
+ font-family: 'Sketchy';
+  src: url(./fonts/EraserSketchy.ttf) format('truetype');
+}
 
 #customHeader
 {
@@ -15,7 +25,7 @@
    background-repeat:no-repeat;
    width:980px;
    height:117px;
-   font-family:'EraserDust';
+   font-family:'Sketchy';
    color:white;
    /*display:inline;*/
    /*position:absolute;*/
@@ -24,14 +34,17 @@
 #headerTitle
 {
    font-size:42.0pt;
+   padding-left:5px;
    /*display:inline;*/
    /*position:absolute;*/
 }
 
 #headerItems
 {
+   font-family:'Rudiment';
    float:right;
    margin-top:-20px;
+   padding-right:5px;
 }
 
 #headerItem
