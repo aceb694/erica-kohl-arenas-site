@@ -1,0 +1,19 @@
+@font-face
+{
+ font-family: 'EraserDust';
+  src: url(./fonts/EraserDust.ttf) format('truetype');
+}
+@font-face
+{
+ font-family: 'EraserRegular';
+  src: url(./fonts/EraserRegular.ttf) format('truetype');
+}
+
+#customHeader
+{
+   background-image:url('./images/header.png');
+   height:85pt;
+   font-size:42.0pt;
+   font-family:'EraserDust';
+   color:white;
+}
