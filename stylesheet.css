@@ -12,8 +12,32 @@
 #customHeader
 {
    background-image:url('./images/header.png');
-   height:85pt;
-   font-size:42.0pt;
+   background-repeat:no-repeat;
+   width:980px;
+   height:117px;
    font-family:'EraserDust';
    color:white;
+   /*display:inline;*/
+   /*position:absolute;*/
+}
+
+#headerTitle
+{
+   font-size:42.0pt;
+   /*display:inline;*/
+   /*position:absolute;*/
+}
+
+#headerItems
+{
+   float:right;
+   margin-top:-20px;
+}
+
+#headerItem
+{
+   /*margin-top:-25px;*/
+   /*position:absolute;*/
+   display:inline;
+   padding-left:23px;
 }
