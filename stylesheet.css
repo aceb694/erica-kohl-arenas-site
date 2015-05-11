@@ -30,25 +30,46 @@
 }
 
 
+body, html
+{
+   display:inline-block;
+}
 
-#customHeader
+#header
 {
    background-image:url('./images/header.png');
    background-repeat:no-repeat;
    width:980px;
-   height:117px;
+   /*height:117px;*/
+   /*width:100%;*/
+   /*height:100%;*/
    font-family:'TenThousandReasons';
+   /*display:inline-block;*/
+}
+
+#titles
+{
+   display:inline-block; /*causes div to expand to the width of its content rather than the available width*/
+}
+
+#headerTitle
+{
+   font-size:35pt;
+   padding-left:8px;
+   margin:0px;
    color:white;
    /*display:inline;*/
    /*position:absolute;*/
 }
 
-#headerTitle
+#subTitle
 {
-   font-size:42.0pt;
-   padding-left:5px;
-   /*display:inline;*/
-   /*position:absolute;*/
+   font-size:8pt;
+   /*padding-left:87px;*/
+   margin-top:-15px;
+   color:white;
+   float:right;
+   text-align: right;  /*causes 2nd line of text separated from the first with </br> to align right when inside a div that is floated right*/
 }
 
 #headerItems
@@ -56,8 +77,9 @@
    font-family:'TenThousandReasons';
    font-size:10pt;
    float:right;
-   margin-top:-20px;
+   margin-top:0px;
    padding-right:5px;
+   padding-top: 10px;
    color:black;
 }
 
@@ -66,5 +88,5 @@
    /*margin-top:-25px;*/
    /*position:absolute;*/
    display:inline;
-   padding-left:23px;
+   padding-left:23px; /*creates padding between each menu element*/
 }
