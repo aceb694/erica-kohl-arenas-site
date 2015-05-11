@@ -18,6 +18,18 @@
  font-family: 'Sketchy';
   src: url(./fonts/Sketchy.ttf) format('truetype');
 }
+@font-face
+{
+ font-family: 'TenThousandReasons';
+  src: url(./fonts/TenThousandReasons.ttf) format('truetype');
+}
+@font-face
+{
+ font-family: 'TenThousandReasonsAlt';
+  src: url(./fonts/TenThousandReasonsAlt.ttf) format('truetype');
+}
+
+
 
 #customHeader
 {
@@ -25,7 +37,7 @@
    background-repeat:no-repeat;
    width:980px;
    height:117px;
-   font-family:'Sketchy';
+   font-family:'TenThousandReasons';
    color:white;
    /*display:inline;*/
    /*position:absolute;*/
@@ -41,10 +53,12 @@
 
 #headerItems
 {
-   font-family:'Sketchy';
+   font-family:'TenThousandReasons';
+   font-size:10pt;
    float:right;
    margin-top:-20px;
    padding-right:5px;
+   color:black;
 }
 
 #headerItem
